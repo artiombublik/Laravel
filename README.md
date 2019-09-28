@@ -2,7 +2,7 @@
 Simple Laravel User ADD,UPDATE,DELETE REST API
 
 
-[POST] #Create User
+[POST] Create User
 
 {your-website.com}/api/users
 --------------------------------------------------------------------------------------------------------
@@ -39,7 +39,7 @@ ERROR -> 400:     status -- String 'error'
 
 
 
-[PUT] #Update User
+[PUT] Update User
 
 {your-website.com}/api/users/{id} - {id} means user id you want to update
 --------------------------------------------------------------------------------------------------------
@@ -73,7 +73,7 @@ ERROR -> 400:     status -- String 'error'
                   
                   
                   
-[DELETE] #Delete User
+[DELETE] Delete User
 
 {your-website.com}/api/users/{id} - {id} means user id you want to update
 --------------------------------------------------------------------------------------------------------
