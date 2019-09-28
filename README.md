@@ -2,12 +2,12 @@
 Simple Laravel User ADD,UPDATE,DELETE REST API
 
 
-[POST] Create User
+# [POST] Create User
 
 {your-website.com}/api/users
 --------------------------------------------------------------------------------------------------------
 Query parameters
-
+```bash
 fname -- string *Required | User First Name
 
 lname -- string *Required | User Last Name
@@ -30,7 +30,7 @@ SUCCESS -> 200:   status -- String 'success'
                  
 ERROR -> 400:     status -- String 'error'
                   message -- an array of errors
-         
+```
          
          
 
