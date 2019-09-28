@@ -26,11 +26,9 @@ last_4_digits -- if the type you send is 1 then you must send his Credit Card La
 all responses are in json format
 
 SUCCESS -> 200:   status -- String 'success'
-
                   message -- String 'user has been created successfuly'
                  
 ERROR -> 400:     status -- String 'error'
-
                   message -- an array of errors
 
          
@@ -65,11 +63,9 @@ last_4_digits -- if the type you send is 1 then you must send his Credit Card La
 all responses are in json format
 
 SUCCESS -> 200:   status -- String 'success'
-
                   message -- String 'User updated'
                  
 ERROR -> 400:     status -- String 'error'
-
                   message -- String that contains the error
                   
                   
@@ -90,11 +86,9 @@ id -- string | User ID
 all responses are in json format
 
 SUCCESS -> 200:   status -- String 'success'
-
                   message -- String 'User deleted'
                  
 ERROR -> 400:     status -- String 'error'
-
                   message -- String that contains the error
                   
                   
