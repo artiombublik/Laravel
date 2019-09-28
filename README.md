@@ -53,8 +53,8 @@ email -- string | User Email
 
 password -- string | User Password
 
-type --  0 | Creates a demo user with Demo Expiration Date | Default
-         1 | Creates a Live user
+type --  0 | Demo user with Demo Expiration Date | Default
+         1 | Live user
 
 last_4_digits -- if the type you send is 1 then you must send his Credit Card Last 4 Digits.
 
