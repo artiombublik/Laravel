@@ -4,10 +4,10 @@ Simple Laravel User ADD,UPDATE,DELETE REST API
 
 # [POST] Create User
 
-{your-website.com}/api/users
+## {your-website.com}/api/users
 --------------------------------------------------------------------------------------------------------
-Query parameters
-```bash
+## Query parameters
+
 fname -- string *Required | User First Name
 
 lname -- string *Required | User Last Name
@@ -22,7 +22,7 @@ type --  0 | Creates a demo user with Demo Expiration Date | Default
 last_4_digits -- if the type you send is 1 then you must send his Credit Card Last 4 Digits.
 
 
-Responses
+## Responses
 all responses are in json format
 
 SUCCESS -> 200:   status -- String 'success'
@@ -30,7 +30,7 @@ SUCCESS -> 200:   status -- String 'success'
                  
 ERROR -> 400:     status -- String 'error'
                   message -- an array of errors
-```
+
          
          
 
@@ -39,11 +39,11 @@ ERROR -> 400:     status -- String 'error'
 
 
 
-[PUT] Update User
+# [PUT] Update User
 
-{your-website.com}/api/users/{id} - {id} means user id you want to update
+## {your-website.com}/api/users/{id} - {id} means user id you want to update
 --------------------------------------------------------------------------------------------------------
-Query parameters
+## Query parameters
 
 fname -- string | User First Name
 
@@ -59,7 +59,7 @@ type --  0 | Creates a demo user with Demo Expiration Date | Default
 last_4_digits -- if the type you send is 1 then you must send his Credit Card Last 4 Digits.
 
 
-Responses
+## Responses
 all responses are in json format
 
 SUCCESS -> 200:   status -- String 'success'
@@ -73,16 +73,16 @@ ERROR -> 400:     status -- String 'error'
                   
                   
                   
-[DELETE] Delete User
+# [DELETE] Delete User
 
-{your-website.com}/api/users/{id} - {id} means user id you want to update
+## {your-website.com}/api/users/{id} - {id} means user id you want to update
 --------------------------------------------------------------------------------------------------------
-Query parameters
+## Query parameters
 
 id -- string | User ID
 
 
-Responses
+## Responses
 all responses are in json format
 
 SUCCESS -> 200:   status -- String 'success'
