@@ -41,7 +41,7 @@ ERROR -> 400:     status -- String 'error'
 
 # [PUT] Update User
 
-## {your-website.com}/api/users/{id} - {id} means user id you want to update
+## {your-website.com}/api/users/{id}
 --------------------------------------------------------------------------------------------------------
 ## Query parameters
 
@@ -75,12 +75,8 @@ ERROR -> 400:     status -- String 'error'
                   
 # [DELETE] Delete User
 
-## {your-website.com}/api/users/{id} - {id} means user id you want to update
+## {your-website.com}/api/users/{id}
 --------------------------------------------------------------------------------------------------------
-## Query parameters
-
-id -- string | User ID
-
 
 ## Responses
 all responses are in json format
